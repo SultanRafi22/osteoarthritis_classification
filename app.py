@@ -10,7 +10,7 @@ st.title("Osteoarthritis Prediction from X-ray images")
 st.write("Upload Knee X-Ray images.")
 
 # Load model YOLOv8 yang sudah dilatih
-model_path = "models\best.pt"  # Ganti dengan path model kamu
+model_path = "models/best.pt"  # Ganti dengan path model kamu
 model = YOLO(model_path)
 
 # Upload gambar
